@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;1,300&family=Bricolage+Grotesque:opsz@10..48&family=Fira+Sans:ital,wght@0,500;1,300&family=Nunito+Sans:ital,opsz,wght@1,6..12,200;1,6..12,300&family=Roboto&family=Space+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;1,300&family=Bricolage+Grotesque:opsz@10..48&family=Fira+Sans:ital,wght@0,500;1,300&family=Nunito+Sans:ital,opsz,wght@1,6..12,200;1,6..12,300&family=Poppins:wght@300&family=Roboto&family=Space+Mono:ital@1&display=swap');
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+}
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1366px;
+    }
+} 
+.sidebar {
+    background-color: slategray;
+    width: 12vw;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+.sidebar nav{
+    /* padding: 16px; */
+    font-size: 15px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    padding: 28px;
+}
+.sidebar nav li a{
+    /* text-decoration: none; */
+    color: black;
+}
+.sidebar nav li a:hover{
+    font-size: 18px;
+    color: goldenrod;
+}
+.contact{
+        margin: 82px 225px;
+        display: flex;
+        align-items: center;
+}
+.contact img{
+    border-radius: 48%;
+    padding: 0 55px;
+    width: 14vw;
+    filter: contrast(9);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Fira Sans', sans-serif;
+}
+form div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 19px;
+}
+.form-control {
+    width: 300px;
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    font-size: 16px; 
+    color: #333; 
+    background-color: #f7f7f7; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: border-color 0.3s ease-in-out; /* Add a transition effect */
+}
+.form-control :focus {
+    border-color: #5b9dd9; /* Change border color when focused */
+    outline: none; /* Remove default focus outline */
+}
+.btn{
+    background-color: dodgerblue;
+    padding: 10px 12px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 14px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    transition: border-color 0.3s ease-in-out;
+}
+.btn:hover{
+    background-color: yellow;
+    font-size: 25px;
+    color: green;
+    transition: border-color 0.5s ease-in-out;
+}   

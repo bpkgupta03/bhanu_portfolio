@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;1,300&family=Bricolage+Grotesque:opsz@10..48&family=Fira+Sans:ital,wght@0,500;1,300&family=Nunito+Sans:ital,opsz,wght@1,6..12,200;1,6..12,300&family=Roboto&family=Space+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;1,300&family=Bricolage+Grotesque:opsz@10..48&family=Fira+Sans:ital,wght@0,500;1,300&family=Nunito+Sans:ital,opsz,wght@1,6..12,200;1,6..12,300&family=Poppins:wght@300&family=Roboto&family=Space+Mono:ital@1&display=swap');
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+}
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1366px;
+    }
+} 
+.sidebar {
+    background-color: slategray;
+    width: 12vw;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+.sidebar nav{
+    /* padding: 16px; */
+    font-size: 15px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    padding: 28px;
+}
+.sidebar nav li a{
+    /* text-decoration: none; */
+    color: black;
+}
+.sidebar nav li a:hover{
+    font-size: 18px;
+    color: goldenrod;
+}
+.main{
+    /* background-color: aqua; */
+    width: 90vw;
+}
+.infoContainer{
+    margin: 44px auto;
+    /* background-color: fuchsia; */
+    font-family: 'Space Mono', monospace;
+    width: 80vw;
+    height: 78vh;
+    display: flex;
+    justify-content: space-around;
+}
+.infoDesc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.hello{
+    font-size: 55px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.name{
+    font-size: 56px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+.about{ 
+    font-size: 26px;
+    margin: 4px auto;
+}
+
+.buttons button{
+    background-color: dodgerblue;
+    margin: 10px 3px;
+    border-radius: 22px;
+    padding: 12px 20px; 
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.1ms ease-out;
+}
+.buttons button:hover{
+    background-color: #f0f0f0;
+    font-size: 18px;
+    color: green;
+}
+.infoPic img{
+    height: 78vh;
+}

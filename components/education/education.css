@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;1,300&family=Bricolage+Grotesque:opsz@10..48&family=Fira+Sans:ital,wght@0,500;1,300&family=Nunito+Sans:ital,opsz,wght@1,6..12,200;1,6..12,300&family=Roboto&family=Space+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;1,300&family=Bricolage+Grotesque:opsz@10..48&family=Fira+Sans:ital,wght@0,500;1,300&family=Nunito+Sans:ital,opsz,wght@1,6..12,200;1,6..12,300&family=Poppins:wght@300&family=Roboto&family=Space+Mono:ital@1&display=swap');
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+}
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1366px;
+    }
+} 
+.sidebar {
+    background-color: slategray;
+    width: 12vw;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+.sidebar nav{
+    /* padding: 16px; */
+    font-size: 15px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    padding: 28px;
+}
+.sidebar nav li a{
+    /* text-decoration: none; */
+    color: black;
+}
+.sidebar nav li a:hover{
+    font-size: 18px;
+    color: goldenrod;
+}

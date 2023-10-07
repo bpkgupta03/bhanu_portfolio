@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contact.css">
+    <title>Bhanu Portfolio </title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <li><a href="/">Home</a></li>
+                <li><a href="../about/about.html">About</a></li>
+                <li><a href="../experience/experience.html">experience</a></li>
+                <li><a href="../education/education.html">Education</a></li>
+                <li><a href="../projects/projects.html">Projects</a></li>
+            </nav>
+        </div>
+        <div class="contact">
+            <img src="../../images/contact.png" alt="contact me"/>
+            <form>
+                <div class="mb-3">
+                    <input type="name" class="form-control" id="name" aria-describedby="name" placeholder="Enter Name">
+                </div>
+                <div class="mb-3" id="clientEmail">
+                  <input type="email" class="form-control" id="clientEmail" aria-describedby="emailHelp" placeholder="Enter Email Address">
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control" pattern="[^0-9]{10}" maxlength="10" id="clientPhone" placeholder="Enter Mobile no">
+                </div>
+                <div class="mb-3" id="clientMsg">
+                    <textarea id="messageInput" class="form-control" rows="5" maxlength="1000" placeholder="Enter your message (max 200 words)"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+              </form>
+        </div>
+    
+    </div>
+    
+</body>
+</html>
